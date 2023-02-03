@@ -1,0 +1,6 @@
+names<-c("bindu","laddu","hima")
+age<-c(20,21,23)
+marks<-c(88,65,57)
+df<-data.frame(names,age,marks)
+mode(df $age)
+write.csv(df,"datafr.csv")
